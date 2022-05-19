@@ -1,0 +1,185 @@
+a[href$=html] {
+  background-color: #4DEDFF;
+}
+
+* {
+  font-family: "Fira Mono", monospace;
+  font-size: 16px;
+}
+
+body {
+  background-color: #4DEDFF;
+}
+
+/* Navbar */
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+  font-size: 1.5em;
+  background-color: #FFC04D;
+  width: 100%;
+  padding: 0px;
+}
+
+.navbar-light .navbar-toggler {
+  color: #FFC04D;
+}
+
+.navbar-toggler {
+  background-color: #FFC04D;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #5C59FF;
+  font-size: 1.25rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: black;
+}
+
+/* About */
+.accordion-button {
+  font-size: 1.5rem;
+  background-color: #FFFFFE;
+}
+
+.accordion-body {
+  font-size: 1.25rem;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #5C59FF;
+  background-color: #FFC04D;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #FFFFFE;
+  box-shadow: inset 0 -3px 0 #5C59FF;
+}
+
+.accordion-item {
+  background-color: #FFC04D;
+  border: 3px solid #FFC04D;
+}
+
+section, .accordion {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding-top: 8vh;
+}
+
+/* Home */
+.row {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1000px;
+}
+.container h1 {
+  color: #FFFFFE;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+}
+h1 h1 {
+  color: #FFFFFE;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 2.8em;
+}
+
+/* Contact */
+h3 {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+.findMe {
+  text-align: center;
+  font-size: 1.3em;
+  padding: 30px;
+}
+
+.social-media-list {
+  margin: 50px auto 0 auto;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.mediaIcon {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 5px 0;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.mediaIcon:hover {
+  color: #FFFFFE;
+}
+
+.mediaIcon i {
+  margin-right: 15px;
+  font-size: 1.5em;
+}
+
+/* Footer */
+footer {
+  position: absolute;
+  bottom: 0;
+  padding: 30px;
+}
+
+.border-top {
+  border-top: 2px solid #FFFFFE !important;
+  width: 100%;
+}
+
+.text {
+  color: black;
+}
+
+/* Api page */
+h4 {
+  font-weight: 600;
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+button {
+  background-color: #FFC04D;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.containerBtn {
+  text-align: center;
+}
+
+#print-here {
+  font-size: 25px;
+  font-weight: 700;
+  color: #FFFFFE;
+  text-align: center;
+}
+
+/*# sourceMappingURL=built-styles.css.map */
